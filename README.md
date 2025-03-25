@@ -1,1 +1,2 @@
 # odin-recipes
+This will be my first attempt at building a basic HTML website under the guidance of the Odin Project. This website will feature a main index page with links to multiple recipes. We are focusing on function over form here on the initial commit. We will come back to revisit to yassify it with CSS.
