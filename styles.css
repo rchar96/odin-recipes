@@ -1,0 +1,42 @@
+body {
+    background-image: url('../odin-recipes/images/crumpledpaperbackground.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-font {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    background-color: #216b0fa5;
+    text-align: center;
+}
+
+.pagelink-font {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #6b0f213a;
+    color: white;
+    text-align: center;
+}
+
+.no-dots {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.home-button {
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    border-radius: 10px;
+    background-color: #216b0fa5;
+    border-color: #6b0f213a;
+    font-size: 20px;
+}
+
+
+img {
+    max-width: fit-content;
+    height: auto;
+}
