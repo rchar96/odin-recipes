@@ -1,4 +1,4 @@
-# * {
+ # * {
     outline: 2px solid red;
 }
 
@@ -9,7 +9,7 @@ html {
     align-items: center;
   }
 
-body {
+.paperbackground {
     background-image: url('../odin-recipes/images/crumpledpaperbackground.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -36,13 +36,21 @@ body {
     padding: 30px;
 }
 
-.pagelink,
-li {
+.pagelink li {
     padding: 10px;
 }
 
-.pagelink,
-a {
+.pagelink a {
+    color: white;
+    text-decoration: none !important;
+}
+
+.platformbackground {
+    background-color: rgba(255, 255, 255, 0.227);
+    margin: 20px;
+}
+
+button a {
     color: white;
     text-decoration: none !important;
 }
@@ -66,8 +74,10 @@ a {
     border-radius: 10px;
     background-color: #216b0fa5;
     border-color: #6b0f213a;
-    font-size: 20px;
-    align-items: center;
+    font-size: 30px;
+    display: flex;
+    margin: 20px;
+    text-align: center;
 }
 
 
@@ -75,3 +85,33 @@ img {
     max-width: fit-content;
     height: auto;
 }
+
+.buttonallignment {
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+    margin-bottom: 30px;
+}
+
+.imageallignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style1 {
+    font-size: 18px;
+  }
+
+.style2 {
+    font-size: 10px;
+  }
+
+.maintextallignment {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
