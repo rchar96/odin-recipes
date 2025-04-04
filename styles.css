@@ -119,3 +119,6 @@ img {
     height: 50px;
 }
 
+.photoframe {
+    outline: 3px #216b0fa5; 
+}
